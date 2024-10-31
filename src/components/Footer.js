@@ -1,9 +1,9 @@
-// components/Footer.js
+// src/components/Footer.js
 import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-6">
+    <footer className="bg-gray-800 text-white py-6 mt-auto w-full">
       <div className="container mx-auto text-center px-4">
         <p>© {new Date().getFullYear()} Portret Fotograaf. Alle rechten voorbehouden.</p>
         <div className="mt-2 flex justify-center space-x-4">
